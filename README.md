@@ -6,7 +6,10 @@ video. It runs entirely in the browser — no frames ever leave the device.
 
 Built by [@admasfeleke](https://github.com/admasfeleke).
 
+🚀 **[Live demo](https://admasfeleke.github.io/meeting-vision-studio/)** — runs entirely in your browser.
+
 [![CI](https://github.com/admasfeleke/meeting-vision-studio/actions/workflows/ci.yml/badge.svg)](https://github.com/admasfeleke/meeting-vision-studio/actions/workflows/ci.yml)
+[![Deploy](https://github.com/admasfeleke/meeting-vision-studio/actions/workflows/deploy.yml/badge.svg)](https://github.com/admasfeleke/meeting-vision-studio/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-66d9c7.svg)](LICENSE)
 ![React](https://img.shields.io/badge/React-18-61dafb?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white)
@@ -39,6 +42,18 @@ npm run dev        # start the dev server (http://127.0.0.1:5173)
 
 Requires Node.js `>=20.19`. A Chromium-based browser is recommended for camera
 access.
+
+### No webcam handy?
+
+Use **Upload video** with a royalty-free clip, e.g. this meeting scene from
+Mixkit (free for commercial use, no attribution required):
+
+```
+https://assets.mixkit.co/videos/4809/4809-720.mp4
+```
+
+It has multiple people and laptops, so person detection, object boxes, and the
+playful labels all light up immediately.
 
 ## Scripts
 
